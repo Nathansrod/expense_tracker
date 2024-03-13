@@ -15,7 +15,7 @@ class DatePicker extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Text(date == null
-              ? 'No date selected'
+              ? 'Pick a date'
               : dateFormatter.format(date!)),
           IconButton(
             onPressed: onShowDatePicker,
